@@ -5,7 +5,7 @@
 
 	$imc = $h / ($m*$m);
 
-	header("Location: ejercicio.php");
+	header("Location: ejercicio.php?imc=".$imc);
 	exit();
 
 ?>
