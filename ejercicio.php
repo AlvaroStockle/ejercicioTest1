@@ -17,7 +17,7 @@
 	<br/><br/>
 	<?php
 		if(isset($_GET["imc"])){
-			$imc = $_GET["imc"])
+			$imc = $_GET["imc"];
 			if($imc>=30) echo "Usted sufre obesidad.";
 			if(($imc>=25)&&($imc<30)) echo "Usted tiene sobrepeso.";
 			if($imc<25) echo "Su peso es normal.";
