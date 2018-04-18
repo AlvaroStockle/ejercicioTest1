@@ -6,6 +6,7 @@
 <body>
 	<fieldset>
 		<legend>Cálculo del índice de masa corporal</legend>
+		Por favor indique los siguientes datos:
 		<form action="calculo.php" method="GET">
 			<label for="altura">Altura: </label><input type="" id="altura" name="altura" /> metros<br/>
 			<label for="peso">Peso: </label><input type="" id="peso" name="peso" /> kilogramos<br/>
